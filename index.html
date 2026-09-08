@@ -1,0 +1,529 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <meta
+  name="description"
+  content="Genesis Chemistry Lab - Explore Chemistry in 3D"
+  >
+
+  <title>Genesis | Chemistry Lab</title>
+  
+</head>
+
+
+<body>
+  
+  <script type="module" src="/src/main.jsx">
+  </script>
+    
+    <!-- =====================================
+      THREE.JS CANVAS
+      ====================================== -->
+      
+      <canvas id="bg"></canvas>
+      
+      
+      <!-- =====================================
+        NAVIGATION BAR
+        ====================================== -->
+        
+        <header class="navbar">
+          
+          <!-- LOGO -->
+          
+          <a href="#home" class="logo">
+            
+      <div class="logo-atom">
+
+        <span>⚛</span>
+
+      </div>
+
+      <div class="logo-text">
+
+        <strong>GENESIS</strong>
+
+        <small>CHEMISTRY LAB</small>
+
+      </div>
+
+    </a>
+
+
+    <!-- NAVIGATION -->
+
+    <nav class="nav-links">
+
+      <a
+        href="#home"
+        class="nav-item active"
+      >
+        HOME
+      </a>
+
+      <a
+        href="#elements"
+        class="nav-item"
+      >
+        ELEMENTS
+      </a>
+
+      <a
+        href="#molecules"
+        class="nav-item"
+      >
+        MOLECULES
+      </a>
+
+      <a
+        href="#lab"
+        class="nav-item"
+      >
+        3D LAB
+      </a>
+
+      <a
+        href="#about"
+        class="nav-item"
+      >
+        ABOUT
+      </a>
+
+    </nav>
+
+
+    <!-- NAV ICON -->
+
+    <div class="nav-icon">
+
+      <div class="hexagon">
+
+        C
+
+      </div>
+
+    </div>
+
+  </header>
+
+
+
+  <!-- =====================================
+       HERO SECTION
+  ====================================== -->
+
+  <main id="home" class="hero">
+
+    <section class="hero-content">
+
+
+      <div class="hero-tag">
+
+        <span class="tag-line"></span>
+
+        WELCOME TO THE FUTURE OF CHEMISTRY
+
+      </div>
+
+
+      <h1>
+
+        EXPLORE
+
+        <span>CHEMISTRY</span>
+
+        IN 3D
+
+      </h1>
+
+
+      <p class="hero-description">
+
+        Discover elements, molecules and chemical
+        reactions through an interactive 3D
+        laboratory.
+
+      </p>
+
+
+      <div class="hero-buttons">
+
+        <button
+          class="enter-button"
+          id="enterLab"
+        >
+
+          ENTER THE LAB
+
+          <span>→</span>
+
+        </button>
+
+
+        <button
+          class="learn-button"
+          id="learnMore"
+        >
+
+          LEARN MORE
+
+        </button>
+
+      </div>
+
+
+      <!-- SMALL STATS -->
+
+      <div class="hero-stats">
+
+        <div>
+
+          <strong>118+</strong>
+
+          <span>ELEMENTS</span>
+
+        </div>
+
+
+        <div>
+
+          <strong>3D</strong>
+
+          <span>MODELS</span>
+
+        </div>
+
+
+        <div>
+
+          <strong>∞</strong>
+
+          <span>DISCOVERY</span>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =================================
+         ELEMENT CARD
+    ================================== -->
+
+    <div class="element-card hydrogen-card">
+
+      <span class="atomic-number">
+        1
+      </span>
+
+      <strong>H</strong>
+
+      <span>Hydrogen</span>
+
+      <small>1.008</small>
+
+    </div>
+
+
+    <div class="element-card carbon-card">
+
+      <span class="atomic-number">
+        6
+      </span>
+
+      <strong>C</strong>
+
+      <span>Carbon</span>
+
+      <small>12.011</small>
+
+    </div>
+
+
+    <!-- =================================
+         3D ATOM LABEL
+    ================================== -->
+
+    <div class="atom-label">
+
+      <div class="label-dot"></div>
+
+      <div>
+
+        <strong>ATOM CORE</strong>
+
+        <span>INTERACTIVE 3D MODEL</span>
+
+      </div>
+
+    </div>
+
+
+  </main>
+
+
+
+  <!-- =====================================
+       ELEMENTS SECTION
+  ====================================== -->
+
+  <section
+    id="elements"
+    class="content-section"
+  >
+
+    <div class="section-heading">
+
+      <span>01</span>
+
+      <h2>ELEMENTS</h2>
+
+      <p>
+        Explore the building blocks of matter.
+      </p>
+
+    </div>
+
+
+    <div class="info-grid">
+
+      <div class="info-card">
+
+        <div class="card-number">
+          01
+        </div>
+
+        <h3>Hydrogen</h3>
+
+        <p>
+          The lightest and most abundant
+          element in the universe.
+        </p>
+
+      </div>
+
+
+      <div class="info-card">
+
+        <div class="card-number">
+          06
+        </div>
+
+        <h3>Carbon</h3>
+
+        <p>
+          The fundamental element of
+          organic chemistry.
+        </p>
+
+      </div>
+
+
+      <div class="info-card">
+
+        <div class="card-number">
+          08
+        </div>
+
+        <h3>Oxygen</h3>
+
+        <p>
+          An essential element for
+          respiration and combustion.
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+  <!-- =====================================
+       MOLECULES SECTION
+  ====================================== -->
+
+  <section
+    id="molecules"
+    class="content-section"
+  >
+
+    <div class="section-heading">
+
+      <span>02</span>
+
+      <h2>MOLECULES</h2>
+
+      <p>
+        Visualize molecular structures in 3D.
+      </p>
+
+    </div>
+
+
+    <div class="molecule-display">
+
+      <div class="molecule-text">
+
+        <h3>
+          BUILD
+          <span>MOLECULES</span>
+        </h3>
+
+        <p>
+          Connect atoms and understand
+          how chemical structures are formed.
+        </p>
+
+        <button class="enter-button">
+          EXPLORE MOLECULES →
+        </button>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+  <!-- =====================================
+       3D LAB SECTION
+  ====================================== -->
+
+  <section
+    id="lab"
+    class="content-section lab-section"
+  >
+
+    <div class="section-heading">
+
+      <span>03</span>
+
+      <h2>3D LAB</h2>
+
+      <p>
+        Enter an interactive virtual chemistry
+        laboratory.
+      </p>
+
+    </div>
+
+
+    <div class="lab-box">
+
+      <div>
+
+        <span class="lab-status">
+          ● SYSTEM ONLINE
+        </span>
+
+        <h3>
+          VIRTUAL
+          <span>CHEMISTRY LAB</span>
+        </h3>
+
+        <p>
+          Experiment, observe and learn
+          chemistry in an interactive
+          environment.
+        </p>
+
+        <button class="enter-button">
+          ENTER LAB →
+        </button>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+  <!-- =====================================
+       ABOUT SECTION
+  ====================================== -->
+
+  <section
+    id="about"
+    class="content-section"
+  >
+
+    <div class="section-heading">
+
+      <span>04</span>
+
+      <h2>ABOUT</h2>
+
+      <p>
+        Learn chemistry through visualization.
+      </p>
+
+    </div>
+
+
+    <div class="about-box">
+
+      <h3>
+        CHEMISTRY
+        <span>WITHOUT LIMITS</span>
+      </h3>
+
+      <p>
+        Genesis Chemistry Lab is an interactive
+        educational platform designed to make
+        chemistry easier to understand through
+        3D visualization and interactive models.
+      </p>
+
+    </div>
+
+  </section>
+
+
+
+  <!-- =====================================
+       FOOTER
+  ====================================== -->
+
+  <footer>
+
+    <div>
+
+      <strong>GENESIS</strong>
+
+      <span>CHEMISTRY LAB</span>
+
+    </div>
+
+    <p>
+      Explore. Discover. Understand.
+    </p>
+
+  </footer>
+
+
+
+  <!-- =====================================
+       JAVASCRIPT
+  ====================================== -->
+
+  <script
+    type="module"
+    src="/src/main.js"
+  ></script>
+</body>
+
+</html>

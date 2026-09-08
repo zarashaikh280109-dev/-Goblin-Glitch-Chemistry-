@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "three": "^0.185.1"
+  },
+  "name": "genesis-lab(chemistry)",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "dev": "vite",
+  "build": "vite",
+  "preview": "vite preview"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "vite": "^8.2.2"
+  }
+}
